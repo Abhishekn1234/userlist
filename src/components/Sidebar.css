@@ -1,0 +1,38 @@
+.sidebar {
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    left:0;
+  }
+  
+  .sidebar-content {
+    width: 100%;
+  }
+  
+  .sidebar h3 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    padding: 15px 20px;
+    color: #555;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: orange;
+    color: #000;
+  }
+  
+  .nav-link.active {
+    background-color: orange;
+    color: white !important;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      height: auto;
+    }
+  }
+  

@@ -1,0 +1,33 @@
+
+  /* Dashboard.css */
+
+.navbar-custom {
+  background-color: white !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ff7f00 !important;
+  font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #e67000 !important;
+}
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 56px;  /* Adjust to navbar height */
+  left: 0;
+  width: 16.6667%; /* md={2} in Bootstrap */
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+}
+
+.main-content {
+  margin-left: 16.6667%;
+  margin-top: 56px;
+  width: 83.3333%;
+}
