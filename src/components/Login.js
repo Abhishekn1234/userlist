@@ -48,7 +48,7 @@ export default function Login() {
             required
           />
           <div className="text-end mt-1">
-            <a href="/forgot-password" className="text-decoration-none">
+            <a href="/forgotpassword" className="text-decoration-none">
               パスワードをお忘れですか？
             </a>
           </div>

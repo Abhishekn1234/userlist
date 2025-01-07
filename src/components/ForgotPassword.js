@@ -28,7 +28,7 @@ const ForgotPassword = () => {
         toast.success('リセットリンクが送信されました');
         setSuccess(true);
         setError('');
-        setTimeout(() => navigate(`/reset-password/${token}`), 2000); 
+        setTimeout(() => navigate(`/resetpassword/${token}`), 2000); 
       } catch (err) {
         toast.error('エラー: ユーザーが見つかりません');
         setError('ユーザーが見つかりません');

@@ -16,8 +16,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/" element={<Dashboard />} />
-        <Route path="/forgot-password" element={<ForgotPassword/>}/>
-        <Route path="/reset-password/:token" element={<ResetPassword/>}/>
+        <Route path="/forgotpassword" element={<ForgotPassword/>}/>
+        <Route path="/resetpassword/:token" element={<ResetPassword/>}/>
         <Route path="/users" element={<UserList/>}/>
       </Routes>
       <ToastContainer />
