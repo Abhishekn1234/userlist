@@ -14,7 +14,7 @@ export default function Register() {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5000/user/register', {
+      const response = await fetch('https://backend-userlist-7.onrender.com/user/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

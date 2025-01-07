@@ -22,7 +22,7 @@ const ForgotPassword = () => {
       setValidated(true);
 
       try {
-        const response = await axios.post('http://localhost:5000/user/forgot-password', { email });
+        const response = await axios.post('https://backend-userlist-7.onrender.com/user/forgot-password', { email });
         const { resetLink } = response.data;
         const token = resetLink.split('/').pop();
         toast.success('リセットリンクが送信されました');

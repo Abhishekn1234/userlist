@@ -16,7 +16,7 @@ export default function UserList() {
     useEffect(() => {
         const fetchUsers = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/user/users');  
+                const response = await axios.get('https://backend-userlist-7.onrender.com/user/users');  
                 setUsers(response.data);  
             } catch (error) {
                 console.error('ユーザー情報の取得に失敗しました:', error);

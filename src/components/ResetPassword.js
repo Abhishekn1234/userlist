@@ -19,7 +19,7 @@ const ResetPassword = () => {
     }
 
     try {
-      await axios.post(`http://localhost:5000/user/reset-password/${token}`, { 
+      await axios.post(`https://backend-userlist-7.onrender.com/user/reset-password/${token}`, { 
         password, 
         confirmPassword 
       });

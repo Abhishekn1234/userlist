@@ -53,7 +53,7 @@ const Dashboard = () => {
   const handleLogout = async () => {
     try {
       const token = localStorage.getItem('token');
-      await axios.post('http://localhost:5000/user/logout', {}, {
+      await axios.post('https://backend-userlist-7.onrender.com/user/logout', {}, {
         headers: {
           Authorization: `Bearer ${token}`,
         }
